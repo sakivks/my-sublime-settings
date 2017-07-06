@@ -1,6 +1,7 @@
 # my-sublime-settings
 
 ## Preferences.sublime-settings
+For setting _Preferences_, goto menu __Preferences__ -> __Settings__ and paste the settings below in the user settings window
 ```JSON
 {
   "bold_folder_labels": true,
@@ -20,6 +21,7 @@
 }
 ```
 ## Default (Windows).sublime-keymap
+For setting _Key Binding_, goto menu __Preferences__ -> __Key Bindings__ and paste the settings below in the user settings window
 ```JSON
 [
   {
