@@ -5,7 +5,7 @@
 {
   "bold_folder_labels": true,
   "caret_style": "phase",
-  "color_scheme": "Packages/User/SublimeLinter/Monokai JSON+ (SL).tmTheme",
+  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
   "fade_fold_buttons": false,
   "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"],
   "font_size": 11,
