@@ -158,3 +158,45 @@ For setting _Key Binding_, goto menu __Preferences__ -> __Key Bindings__ and pas
   { "keys": ["f3"], "command": "goto_definition" }
 ]
 ```
+
+## .eslintrc
+```JSON
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-var": 1,
+    "no-console": 0,
+    "func-names": 0,
+    "prefer-const": 1,
+    "prefer-arrow-callback": 1,
+    "no-unused-vars": 1,
+    "no-throw-literal": 1,
+    "eol-last": 2,
+    "no-param-reassign": 0,
+    "no-use-before-define": 1,
+    "no-shadow": 1,
+    "radix": 1,
+    "space-before-function-paren": ["error", "never"],
+    "array-bracket-spacing": 0,
+    "max-len": ["error", 200],
+    "global-require": 0,
+    "quotes":0,
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "comma-dangle":0
+  },
+  "parser": "babel-eslint",
+  "parserOptions": { 
+    "ecmaVersion": 6, 
+    "ecmaFeatures": { 
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser":true,
+    "node":true,
+    "es6":true
+  }
+}
+```
